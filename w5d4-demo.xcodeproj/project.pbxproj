@@ -14,6 +14,7 @@
 		2A27B3941FA960ED0093FAB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A27B3921FA960ED0093FAB9 /* LaunchScreen.storyboard */; };
 		2A27B39F1FA960ED0093FAB9 /* w5d4_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27B39E1FA960ED0093FAB9 /* w5d4_demoTests.swift */; };
 		2A27B3AA1FA960ED0093FAB9 /* w5d4_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27B3A91FA960ED0093FAB9 /* w5d4_demoUITests.swift */; };
+		2A27B3B81FA961DF0093FAB9 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27B3B71FA961DF0093FAB9 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2A27B3A51FA960ED0093FAB9 /* w5d4-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "w5d4-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A27B3A91FA960ED0093FAB9 /* w5d4_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = w5d4_demoUITests.swift; sourceTree = "<group>"; };
 		2A27B3AB1FA960ED0093FAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A27B3B71FA961DF0093FAB9 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				2A27B3891FA960ED0093FAB9 /* AppDelegate.swift */,
 				2A27B38B1FA960ED0093FAB9 /* ViewController.swift */,
 				2A27B38D1FA960ED0093FAB9 /* Main.storyboard */,
+				2A27B3B71FA961DF0093FAB9 /* Calculator.swift */,
 				2A27B3901FA960ED0093FAB9 /* Assets.xcassets */,
 				2A27B3921FA960ED0093FAB9 /* LaunchScreen.storyboard */,
 				2A27B3951FA960ED0093FAB9 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				2A27B38C1FA960ED0093FAB9 /* ViewController.swift in Sources */,
 				2A27B38A1FA960ED0093FAB9 /* AppDelegate.swift in Sources */,
+				2A27B3B81FA961DF0093FAB9 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
