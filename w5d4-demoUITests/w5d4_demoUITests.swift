@@ -31,6 +31,16 @@ class w5d4_demoUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        let backButton = app.navigationBars.buttons["Back"]
+        app.buttons["Test 1"].tap()
+        backButton.tap()
+        app.buttons["Test 2"].tap()
+        backButton.tap()
+        app.buttons["Test 3"].tap()
+        backButton.tap()
+        
     }
     
 }
