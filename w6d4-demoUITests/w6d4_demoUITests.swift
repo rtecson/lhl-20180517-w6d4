@@ -1,6 +1,6 @@
 //
-//  w5d4_demoUITests.swift
-//  w5d4-demoUITests
+//  w6d4_demoUITests.swift
+//  w6d4-demoUITests
 //
 //  Created by Roland on 2017-10-31.
 //  Copyright © 2017 Roland. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class w5d4_demoUITests: XCTestCase {
+class w6d4_demoUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

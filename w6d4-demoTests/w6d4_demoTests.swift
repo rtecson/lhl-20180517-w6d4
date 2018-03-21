@@ -1,15 +1,15 @@
 //
-//  w5d4_demoTests.swift
-//  w5d4-demoTests
+//  w6d4_demoTests.swift
+//  w6d4-demoTests
 //
 //  Created by Roland on 2017-10-31.
 //  Copyright © 2017 Roland. All rights reserved.
 //
 
 import XCTest
-@testable import w5d4_demo
+@testable import w6d4_demo
 
-class w5d4_demoTests: XCTestCase {
+class w6d4_demoTests: XCTestCase {
     
     let calculator = Calculator()
     
