@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Calculator {
+class Calculator {
     
     func add(augend: Int, addend: Int) -> Int {
         let sum = augend + addend

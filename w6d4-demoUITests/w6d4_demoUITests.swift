@@ -32,14 +32,26 @@ class w6d4_demoUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
+//        let app = XCUIApplication()
+//        let backButton = app.navigationBars.buttons["Back"]
+//        app.buttons["Test 1"].tap()
+//        backButton.tap()
+//        app.buttons["Test 2"].tap()
+//        backButton.tap()
+//        app.buttons["Test 3"].tap()
+//        backButton.tap()
+        
         let app = XCUIApplication()
-        let backButton = app.navigationBars.buttons["Back"]
-        app.buttons["Test 1"].tap()
+        let test1Button = app.buttons["test1Button"]
+        test1Button.tap()
+        // Do something here to check that we're on the right screen
+        
+        let backButton = app.navigationBars["Screen 1"].buttons["Back"]
+        backButton.tap()
+        test1Button.tap()
         backButton.tap()
         app.buttons["Test 2"].tap()
-        backButton.tap()
-        app.buttons["Test 3"].tap()
-        backButton.tap()
+        app.navigationBars["Screen 2"].buttons["Back"].tap()
         
     }
     

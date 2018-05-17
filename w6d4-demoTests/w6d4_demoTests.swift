@@ -24,13 +24,25 @@ class w6d4_demoTests: XCTestCase {
     }
     
     func testAddition() {
+        // 1. Set up pre-conditions
+        
+        // 2. Trigger the test
         let sum = calculator.add(augend: 5, addend: 2)
+        
+        // 3. Check result and compare with expected behaviour
         XCTAssertTrue(sum == (5+2), "5+2 returned \(sum)")
     }
     
     func testSubtraction() {
         let difference = calculator.subtract(minuend: 5, subtrahend: 10)
         XCTAssertTrue(difference == (5-10), "5-10 returned \(difference)")
+        // Additional scenarios that should probably be tested:
+        // 5 - 5
+        // -5 - -5
+        // 10 - 0
+        // 6 - 7
+        // 7 - 6
+        // MAX_INT - MAX_INT
     }
     
     func testMultiplication() {
